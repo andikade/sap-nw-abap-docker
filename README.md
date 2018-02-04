@@ -8,6 +8,8 @@ A detailed blog on how to get this image and container up and running can be fou
 To be able to setup the Docker container with just one command, make sure to read my blog [ADJUST IMAGE SIZE OF DOCKER QCOW2 FILE
 ](https://www.itsfullofstars.de/2017/12/adjust-the-image-size-of-docker/). SAP NetWeaver is somewhat too large for Docker, and you can get a no space left on device error when installing it on a default Docker installation. The blog expains how to increase the Docker image file size by 100G, allowing to setup SAP NetWeaver ABAP by just running docker build -t abap .
 
+If you use Docker on Windows with Microsoft Hyper-V, then this [entry](https://forums.docker.com/t/manage-host-disk-volume-size/37438/2) explains how to increase the Docker image file size.
+
 ## Short version
 
 1. Download your version of [SAP NetWeaver ABAP 7.5x Developer Edition from SAP](https://tools.hana.ondemand.com/#abap). The files are compressed (RAR). Un-compress them into a folder named NW751. The folder must be at the same location where your Dockerfile is.
