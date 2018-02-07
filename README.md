@@ -29,7 +29,7 @@ docker run -P -h vhcalnplci --name nwabap751 -it nwabap:latest /bin/bash
 4. Start NetWeaver installation
 
 ```sh
-run.sh
+./run.sh
 ```
 
-5. Done. NetWeaver ABAP is installed and ready to be used. Users, credentials, etc can be found in the fie readme.html shipped with the NetWeaver ABAP RAR files.
+5. Done. NetWeaver ABAP is installed and ready to be used. Users, credentials, etc can be found in the file readme.html shipped with the NetWeaver ABAP RAR files.
